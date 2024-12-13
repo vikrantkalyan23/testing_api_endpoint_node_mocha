@@ -1,0 +1,22 @@
+{
+  "name": "testing_api_endpoint_node_mocha",
+  "version": "1.0.0",
+  "description": "Testing Node.js Applications (Using Mocha and  Chai)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Vikrant Kalyan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "mongoose": "^8.8.4"
+  },
+  "devDependencies": {
+    "chai": "^5.1.2",
+    "chai-http": "^5.1.1",
+    "mocha": "^11.0.1"
+  }
+}
