@@ -7,7 +7,10 @@ npm init -y
 
 npm install express mongoose body-parser
 
-npm install --save-dev mocha chai chai-http
+npm install --save-dev mocha chai 
+
+npm install chai-http@4.3.0 --save-dev
+
 
 # Start the server:
 
