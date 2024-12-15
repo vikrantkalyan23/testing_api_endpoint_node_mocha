@@ -87,6 +87,6 @@ app.delete("/api/data/:id", async (req, res) => {
 });
 
 // Start Server
-app.listen(3600, () => {
-    console.log("Server running on port 3600");
+app.listen(3000, () => {
+    console.log("Server running on port 3000");
 });

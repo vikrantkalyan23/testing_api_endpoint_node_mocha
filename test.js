@@ -4,7 +4,7 @@ const { expect } = chai;
 
 chai.use(chaiHttp);
 
-const server = "http://localhost:3600";
+const server = "http://localhost:3000";
 let testId = null;
 
 describe("API Tests", () => {
